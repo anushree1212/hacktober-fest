@@ -1,0 +1,47 @@
+<html>
+<head>
+<title> Simple Calculator </title>
+</head>
+<script type="text/javascript">
+var a,b,c;
+function add()
+{
+a=parseInt(f1.t1.value);
+b=parseInt(f1.t2.value);
+c=a+b;
+f1.t3.value;
+}
+function sub()
+{
+a=parseInt(f1.t1.value);
+b=parseInt(f1.t2.value);
+c=a-b;
+f1.t3.value;
+}
+function mul()
+{
+a=parseInt(f1.t1.value);
+b=parseInt(f1.t2.value);
+c=a*b;
+f1.t3.value;
+}
+function div()
+{
+a=parseInt(f1.t1.value);
+b=parseInt(f1.t2.value);
+c=a/b;
+f1.t3.value;
+}
+</script>
+<body>
+<form name="f1">
+First No<input type="textbox"name="t1"><br>
+Second No<input type="textbox"name="t2"><br>
+Result<input type="textbox"name="t3"><br>
+<input type="button"value="add"name="b1"onclick="add()">
+<input type="button"value="sub"name="b2"onclick="sub()">
+<input type="button"value="mul"name="b3"onclick="mul()">
+<input type="button"value="div"name="b4"onclick="div()">
+</forms>
+</body>
+</html>
